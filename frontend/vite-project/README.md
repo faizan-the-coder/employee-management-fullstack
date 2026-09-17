@@ -1,12 +1,35 @@
-# React + Vite
+# Employee Management — Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React (Vite) frontend for the Employee Management full-stack project.
 
-Currently, two official plugins are available:
+See the [root README](../README.md) for the project overview, features, installation
+steps and environment setup.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack
 
-## Expanding the ESLint configuration
+- React with React Router
+- Vite (build tooling)
+- axios (API calls), jwt-decode (token handling)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Commands
+
+```
+npm install
+npm run dev
+```
+
+Production build and preview:
+
+```
+npm run build
+npm run preview
+```
+
+Lint:
+
+```
+npm run lint
+```
+
+The backend API must be running for login and dashboard data — see the
+[root README](../README.md).
