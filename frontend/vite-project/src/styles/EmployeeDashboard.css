@@ -1,0 +1,91 @@
+/* Centering and styling the employee dashboard */
+.employee-dashboard {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .employee-dashboard h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Styling employee details */
+  .employee-dashboard p {
+    font-size: 16px;
+    margin: 8px 0;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  /* Bold text for labels */
+  .employee-dashboard p strong {
+    color: #222;
+  }
+  
+  /* Form styling */
+  .employee-dashboard label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  /* Input fields */
+  .employee-dashboard input,
+  .employee-dashboard select,
+  .employee-dashboard textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Textarea styling */
+  .employee-dashboard textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  /* Buttons */
+  .employee-dashboard button {
+    width: 48%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* Save button */
+  .employee-dashboard button:first-of-type {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .employee-dashboard button:first-of-type:hover {
+    background-color: #218838;
+  }
+  
+  /* Cancel & Edit button */
+  .employee-dashboard button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .employee-dashboard button:last-of-type:hover {
+    background-color: #c82333;
+  }
+  
